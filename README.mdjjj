@@ -1,0 +1,19 @@
+# TerpMusic Discover
+
+## Description
+
+TerpMusic Discover is a web application designed for University of Maryland students to share and discover music across campus. Users can add their favorite songs, browse songs submitted by other students, search for artists and music using an external API, and view music trends through charts and visualizations. The goal of this application is to create a music-focused community where students can connect through shared interests and discover new songs.
+
+## Target Browsers
+
+This application was designed and tested for the following browsers:
+
+Desktop:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
+
+Mobile:
+- iOS Safari
+- Android Chrome
