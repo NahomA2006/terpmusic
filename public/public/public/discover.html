@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discover Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="discover.html">Discover</a>
+  </nav>
+
+  <h1>Discover Music</h1>
+
+  <h2>Add a Song</h2>
+
+  <input id="title" placeholder="Song title">
+  <input id="artist" placeholder="Artist">
+  <input id="genre" placeholder="Genre">
+
+  <button onclick="addSong()">Add Song</button>
+
+  <p id="message"></p>
+
+  <h2>Search Music</h2>
+
+  <input id="searchBox" placeholder="Search artist or song">
+
+  <button onclick="searchMusic()">Search</button>
+
+  <div id="searchResults"></div>
+
+  <h2>Saved Songs</h2>
+
+  <button onclick="getSongs()">Load Songs</button>
+
+  <div id="songs"></div>
+
+  <h2>Genre Chart</h2>
+
+  <canvas id="genreChart"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
